@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+#btn1 {
+    position: fixed;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    position: fixed;
+    top: 10%;
+    color: white;
+}
