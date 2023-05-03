@@ -47,10 +47,10 @@ const scene = new THREE.Scene();
     directionalLight.shadow.camera.top = 50;
     directionalLight.shadow.camera.bottom = -50;
 
-    const sunGeometry = new THREE.IcosahedronGeometry(1, 15);
+    const sunGeometry = new THREE.IcosahedronGeometry(30, 30);
     const sunMaterial = new THREE.MeshBasicMaterial( { color: 0xFDB813 } );
     const sun = new THREE.Mesh(sunGeometry, sunMaterial);
-    sun.position.set(40, 50, 50);
+    sun.position.set(200, 100, 500);
     sun.castShadow = true;
     scene.add(sun);
 
