@@ -206,8 +206,8 @@ window.addEventListener("pointerdown", (e) => {
 
 const loader = new GLTFLoader().load('./Assets/venus_planet_bedside_lamp/scene.gltf', (object) => {
     let model = object.scene;
-    model.scale.set(500, 500, 100);
-    model.position.set(0,-50,75);
+    model.scale.set(500, 500, 500);
+    model.position.set(0,-50,100);
     scene.add(model);
 })
 
